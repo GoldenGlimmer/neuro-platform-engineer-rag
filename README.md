@@ -30,20 +30,9 @@
 **Execution environment:** Google Colab  
 
 ### Pipeline
-User Query
-↓
-Query Sanitization
-↓
-Query Classification
-↓
-Retrieval (FAISS)
-↓
-Context Selection
-↓
-Strict Prompt Construction
-↓
-LLM Generation
-↓
+
+User Query → Sanitization → Query Classification →  
+Retriever → Context Selection → Strict Prompt → LLM →  
 Answer + Source
 
 ---
